@@ -74,6 +74,8 @@ header{
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    display: flex;
+    
 }
 
 /* For All Headings */
