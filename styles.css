@@ -74,10 +74,9 @@ header{
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    justify-content: flex-start;
 }
 
 /* For All Headings */
@@ -142,9 +141,7 @@ nav ul{
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 nav a{
@@ -173,7 +170,7 @@ nav a span{
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
-    top: -120px;
+    top: -115px;
     z-index: 2;
 }
 
@@ -236,8 +233,7 @@ p{
     /* TO DO */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 2rem;
-    column-gap: 2rem;
+    gap: 3rem;
     justify-items: center;
 }
 
@@ -291,8 +287,7 @@ p{
     /* TO DO */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 3rem;
-    row-gap: 2rem;
+    gap: 3rem;
 }
 
 /* Contact Heading and Paragraph */
