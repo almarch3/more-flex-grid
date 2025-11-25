@@ -77,7 +77,6 @@ header{
     display: flex;
     justify-content: left;
     padding: 1rem 2rem;
-    
 }
 
 /* For All Headings */
@@ -141,6 +140,10 @@ nav ul{
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 nav a{
