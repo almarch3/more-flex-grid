@@ -143,6 +143,8 @@ nav ul{
     /* TO DO */
     display: flex;
     gap: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a{
@@ -171,7 +173,7 @@ nav a span{
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
-    top: -115px;
+    top: -100px;
     z-index: 2;
 }
 
@@ -289,6 +291,7 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    align-items: start;
 }
 
 /* Contact Heading and Paragraph */
