@@ -75,8 +75,9 @@ header{
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
     display: flex;
-    justify-content: left;
-    padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* For All Headings */
