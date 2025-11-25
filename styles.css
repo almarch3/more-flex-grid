@@ -74,11 +74,12 @@ header{
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: start;
-    justify-items: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 4rem;
+    gap: 2rem;
 }
 
 /* For All Headings */
