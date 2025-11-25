@@ -173,7 +173,7 @@ nav a span{
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
-    top: -140px;
+    top: -120px;
     z-index: 2;
 }
 
@@ -256,6 +256,7 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 400px;
 
 }
 
@@ -283,7 +284,7 @@ p{
 }
 
 /* Contact Section */
-#contact{
+#contact {
     color: var(--wht);
     padding: 64px 32px;
     /* Styles were added here to arrange the content, I used grid */
